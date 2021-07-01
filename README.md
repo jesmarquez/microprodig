@@ -3,6 +3,14 @@ Microservicio desarrollado en NodeJS versión 14 (Typescript) usando ExpressJS. 
 
 El despliegue fue realizado en Amazon Web Service sobre una EC2 (Ubuntu) y la base de datos en una RDS (mysql).
 
+El CRUD tiene el propósito:
+
+* Consultar todos los datos demográficos de las ciudades en EEUU.
+* Consultar los datos de una ciudad por medio de un ID.
+* Incluir una ciudad.
+* Actualizar la población total de una ciudad mediante un ID.
+* Borrar una ciudad por un ID.
+
 ## Docker image
 
 La imagen docker se encuentra en **https://hub.docker.com/repository/docker/jesmqz/microprodig**
